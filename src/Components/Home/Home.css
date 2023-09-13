@@ -1,0 +1,39 @@
+body{
+    background:url('alexander-grey-fSlCxR0dnZY-unsplash.jpg');
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.card{
+    width: 250px;
+    height: 380px;
+    border: 5px solid gray;
+    border-radius: 15px;
+}
+.photo{
+    width: 80px;
+    border-radius: 40px;
+}
+.info{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+}
+.card-btn{
+    background-color: aqua;
+}
+.home-container{
+    display: flex;
+}
+.card-container{
+   width: 700px;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 15px;
+}
